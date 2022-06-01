@@ -186,7 +186,7 @@ time {
 }
 @media (max-width: 1115px) {
     /*إخفاء حقل البحث الموجود في القائمة العلوية*/
-    .navbar .collapse .form-inline {
+    .navbar .collapse .form-hide {
         display: none;
     }
     /*إظهار أيقونة البحث*/

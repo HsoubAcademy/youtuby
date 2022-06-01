@@ -2,11 +2,10 @@
 .card:hover {
     transform: translateY(0%);
 }
-/*لكي توازي الأيقونات الكتابة التي فوقها*/
+/* لكي توازي الأيقونات الكتابة التي فوقها */
 .watch-page .watch-icons {
-    position: absolute;/*وضع الأيقونات بأسفل الفيديو*/
+    position: absolute;
     bottom: 5px;
-    right: 20px;
 }
 /*عند مرور الفأرة على الأيقونات*/
 .watch-icons i:hover {
@@ -39,7 +38,11 @@ time {
 }
 /*تغيير موضع أيقونة التشغيل*/
 .watch-page .fa-play {
-    right: 46% !important;
+    right: 49% !important;
+}
+
+div.dropdown-menu.show {
+    inset: 0px 140px auto auto !important;
 }
 /*تصغير حجم العنصر الذي يحتوي على مدة مقطع الفيديو وحجم أيقونة التشغيل*/
 @media (min-width: 992px) {
